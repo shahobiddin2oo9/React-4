@@ -1,0 +1,52 @@
+.HomeMain {
+  margin-top: 177px;
+  .HomeBg {
+    background-image: url(../assets/home//hdr_bootm.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    .ManText {
+      max-width: 527px;
+      .p {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 155%;
+        letter-spacing: 0%;
+        color: #e87d0e;
+        margin-bottom: 23px;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 155%;
+        letter-spacing: 0%;
+        color: white;
+        padding: 17px 0 26px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: 0%;
+        padding: 0px 0 50px;
+        color: white;
+      }
+      button {
+        padding: 14px 31px;
+        background: linear-gradient(92.48deg, #d80027 2.08%, #fb9e3c 117.25%);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        border-radius: 40px;
+        border: none;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+        &:hover {
+          background: linear-gradient(92.48deg, #fb9e3c 2.08%, #d80027 117.25%);
+        }
+      }
+    }
+  }
+}
