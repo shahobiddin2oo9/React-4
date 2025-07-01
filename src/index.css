@@ -10,7 +10,13 @@
 }
 html,
 body {
-  background-color: #070321;
+  scroll-behavior: smooth;
+  background: linear-gradient(
+    179.5deg,
+    #070320 42.53%,
+    #050d7c 61.57%,
+    #2b36b5 87.08%
+  );
   font-family: "Poppins", sans-serif;
 }
 .container {
@@ -37,4 +43,20 @@ a {
   font-size: 24px;
   color: rgb(0, 89, 255);
   text-decoration: underline;
+}
+.loading {
+  color: white;
+  font-size: 32px;
+}
+.gif {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  object-position: center;
+}
+.TemurMan {
+  width: 40%;
+  @media (max-width: 1165) {
+    width: 100%;
+  }
 }
